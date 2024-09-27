@@ -1,3 +1,4 @@
+import { audioSet } from './effects.js'
 import { Blocks, Block, BlockTexture } from 'definitions'
 import blocksPng from './blocks.png'
 
