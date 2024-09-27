@@ -2,7 +2,7 @@
 import { Blocks, Block, BlockTexture } from 'definitions'
 import blocksPng from './blocks.png'
 
-/*class Bush extends Block{
+class Bush extends Block{
 	static solid = false
 	static opacity = 0
 	static targettable = true
@@ -14,18 +14,5 @@ Blocks.dandelion = class extends Bush{
 }
 
 Blocks.rose = class extends Bush{
-  static texture = BlockTexture(blocksPng, 12, 0)
-}*/
-Blocks.dandelion = class extends Block{
-  static solid = false
-  static opacity = 0
-  static targettable = true
-  static texture = BlockTexture(blocksPng, 13, 0)
-}
-
-Blocks.rose = class extends Block{
-  static solid = false
-  static opacity = 0
-  static targettable = true
   static texture = BlockTexture(blocksPng, 12, 0)
 }
