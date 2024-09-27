@@ -5,7 +5,7 @@ class Bush extends Block{
 	static solid = false
 	static opacity = 0
 	static targettable = true
-	static placeSounds = Blocks.grass.placeSounds
+	static placeSounds = audioSet('grass/place', 4)
 }
 
 Blocks.dandelion = class extends Bush{
