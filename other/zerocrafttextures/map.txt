@@ -1,0 +1,2 @@
+# Replace all of these vanilla assets
+./blocks.png
